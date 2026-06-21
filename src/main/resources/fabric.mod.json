@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "mining_companion",
+  "version": "1.0.0",
+  "name": "Mining Companion",
+  "description": "Companion bridge: streams world/inventory state to a local Python brain and executes its movement/mining actions. Intended for single-player or consenting private servers.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.miningcompanion.MiningCompanionClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
